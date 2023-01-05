@@ -23,7 +23,7 @@ nb_train_samples = 7798
 # Количество изображений для валидации
 nb_validation_samples = 3952
 # Количество эпох
-epochs = 5
+epochs = 1
 # Размер выборки
 batch_size = 4
 
@@ -81,5 +81,5 @@ json_file.write(model_json)
 json_file.close()
 # Записываем данные о весах в файл
 model.save_weights("vgg16_planes_helicopters.h5")
-model.save('network5')  # Сохранение модели
+model.save('network6')  # Сохранение модели
 print("Сохранение сети завершено")
