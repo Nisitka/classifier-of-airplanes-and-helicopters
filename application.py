@@ -17,7 +17,7 @@ class gui(QtWidgets.QWidget, guiUI.Ui_Form):
         self.setupUi(self)
 
         # настройки визула
-        self.setWindowTitle("client-camera")
+        self.setWindowTitle("classifier")
 
 
 from PyQt5.QtWidgets import QApplication
